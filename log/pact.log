@@ -1,0 +1,127 @@
+# Logfile created on 2019-08-02 14:02:12 +0100 by logger.rb/47272
+I, [2019-08-02T14:02:12.860883 #25852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:02:12.871144 #25852]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:02:12.871318 #25852] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:02:12.939123 #25852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"44", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:02:12 GMT"}, see debug logs for body
+D, [2019-08-02T14:02:12.939227 #25852] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 10}
+I, [2019-08-02T14:05:03.413719 #26513]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:05:03.421054 #26513]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:05:03.421183 #26513] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:05:03.455998 #26513]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:05:03 GMT"}, see debug logs for body
+D, [2019-08-02T14:05:03.456086 #26513] DEBUG -- : body: {"lastNme":"bar", "name":"jean", "age": 10}
+I, [2019-08-02T14:20:26.545316 #1301]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:20:26.551683 #1301]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:20:26.551783 #1301] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:20:26.581732 #1301]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:20:26 GMT"}, see debug logs for body
+D, [2019-08-02T14:20:26.581814 #1301] DEBUG -- : body: {"lastNaaame":"bar", "name":"jean", "age": 10}
+I, [2019-08-02T14:21:00.849183 #1613]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:21:00.855838 #1613]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:21:00.855954 #1613] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:21:00.894919 #1613]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"45", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:21:00 GMT"}, see debug logs for body
+D, [2019-08-02T14:21:00.895003 #1613] DEBUG -- : body: {"lastName":"bar", "names":"jean", "age": 10}
+I, [2019-08-02T14:27:57.311938 #3127]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:27:57.318944 #3127]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:27:57.319082 #3127] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:27:57.391119 #3127]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"47", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:27:57 GMT"}, see debug logs for body
+D, [2019-08-02T14:27:57.391488 #3127] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "ages": 10}
+I, [2019-08-02T14:40:08.753856 #5957]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:40:08.760282 #5957]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:40:08.760424 #5957] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:40:08.809413 #5957]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"47", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:40:08 GMT"}, see debug logs for body
+D, [2019-08-02T14:40:08.809533 #5957] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "ages": 10}
+I, [2019-08-02T14:40:46.122584 #6205]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:40:46.129505 #6205]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:40:46.129635 #6205] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:40:46.183361 #6205]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"48", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:40:46 GMT"}, see debug logs for body
+D, [2019-08-02T14:40:46.183465 #6205] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "10"}
+I, [2019-08-02T14:41:13.419161 #6531]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:41:13.425523 #6531]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:41:13.425623 #6531] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:41:13.471165 #6531]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 13:41:13 GMT"}, see debug logs for body
+D, [2019-08-02T14:41:13.471275 #6531] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T14:41:50.703693 #6778]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:41:50.710501 #6778]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:41:50.710622 #6778] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:41:50.766541 #6778]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 13:41:50 GMT"}, see debug logs for body
+D, [2019-08-02T14:41:50.766620 #6778] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T14:46:31.499976 #7797]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:46:31.506427 #7797]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:46:31.506537 #7797] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:46:31.550632 #7797]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 13:46:31 GMT"}, see debug logs for body
+D, [2019-08-02T14:46:31.551038 #7797] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T14:47:43.957443 #8105]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T14:47:43.965000 #8105]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T14:47:43.965142 #8105] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T14:47:44.021843 #8105]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 13:47:44 GMT"}, see debug logs for body
+D, [2019-08-02T14:47:44.021952 #8105] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:02:38.512830 #10924]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:02:38.519460 #10924]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:02:38.519600 #10924] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:02:38.576214 #10924]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:02:38 GMT"}, see debug logs for body
+D, [2019-08-02T15:02:38.576292 #10924] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:05:18.457859 #11611]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:05:18.464657 #11611]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:05:18.464759 #11611] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:05:18.506288 #11611]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:05:18 GMT"}, see debug logs for body
+D, [2019-08-02T15:05:18.506877 #11611] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:06:40.340694 #11987]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:06:40.347514 #11987]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:06:40.347621 #11987] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:06:40.407078 #11987]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:06:40 GMT"}, see debug logs for body
+D, [2019-08-02T15:06:40.407165 #11987] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:07:05.359149 #12204]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:07:05.365882 #12204]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:07:05.365980 #12204] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:07:05.422161 #12204]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:07:05 GMT"}, see debug logs for body
+D, [2019-08-02T15:07:05.422240 #12204] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:07:35.560207 #12415]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:07:35.566744 #12415]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:07:35.566878 #12415] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:07:35.612655 #12415]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:07:35 GMT"}, see debug logs for body
+D, [2019-08-02T15:07:35.612826 #12415] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:13:33.264888 #13808]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:13:33.271794 #13808]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:13:33.271910 #13808] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:13:33.321122 #13808]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"52", "Content-Type"=>"applicationss/json", "Date"=>"Fri, 02 Aug 2019 14:13:33 GMT"}, see debug logs for body
+D, [2019-08-02T15:13:33.321211 #13808] DEBUG -- : body: {"lastNames":"bar", "names":"jean", "age": "cheese"}
+I, [2019-08-02T15:14:34.923922 #14185]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:14:34.934368 #14185]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:14:34.934580 #14185] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:14:34.989578 #14185]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"44", "Content-Type"=>"applications/json", "Date"=>"Fri, 02 Aug 2019 14:14:34 GMT"}, see debug logs for body
+D, [2019-08-02T15:14:34.990204 #14185] DEBUG -- : body: {"lastName":"bar", "names":"jean", "age": 3}
+I, [2019-08-02T15:14:50.059340 #14428]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:14:50.066654 #14428]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:14:50.066765 #14428] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:14:50.139571 #14428]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"applications/json", "Date"=>"Fri, 02 Aug 2019 14:14:50 GMT"}, see debug logs for body
+D, [2019-08-02T15:14:50.139662 #14428] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}
+I, [2019-08-02T15:15:31.808241 #14691]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:15:31.815054 #14691]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:15:31.815152 #14691] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:15:31.880853 #14691]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 14:15:31 GMT"}, see debug logs for body
+D, [2019-08-02T15:15:31.881443 #14691] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}
+I, [2019-08-02T15:30:46.203800 #17863]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:30:46.210084 #17863]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:30:46.210174 #17863] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:30:46.254676 #17863]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 14:30:46 GMT"}, see debug logs for body
+D, [2019-08-02T15:30:46.254789 #17863] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}
+I, [2019-08-02T15:32:14.440121 #18264]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:32:14.446933 #18264]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:32:14.447042 #18264] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:32:14.512984 #18264]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Fri, 02 Aug 2019 14:32:14 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2019-08-02T15:32:14.513399 #18264] DEBUG -- : body: 404 page not found
+
+I, [2019-08-02T15:33:07.446951 #18577]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T15:33:07.453418 #18577]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T15:33:07.453515 #18577] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T15:33:07.500433 #18577]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 14:33:07 GMT"}, see debug logs for body
+D, [2019-08-02T15:33:07.500513 #18577] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}
+I, [2019-08-02T17:01:42.077834 #9651]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T17:01:42.084699 #9651]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T17:01:42.084807 #9651] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T17:01:42.143533 #9651]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 16:01:42 GMT"}, see debug logs for body
+D, [2019-08-02T17:01:42.143614 #9651] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}
+I, [2019-08-02T17:06:56.571296 #10802]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given User foo exists A request to get foo with GET /foobar returns a response which has status code 200'
+I, [2019-08-02T17:06:56.577804 #10802]  INFO -- : Sending GET request to path: "/foobar" with headers: {"HTTP_AUTHORIZATION"=>"Bearer 1234", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"User foo exists"}]}, see debug logs for body
+D, [2019-08-02T17:06:56.577919 #10802] DEBUG -- : body :{"name":"billy"}
+I, [2019-08-02T17:06:56.623087 #10802]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Fri, 02 Aug 2019 16:06:56 GMT"}, see debug logs for body
+D, [2019-08-02T17:06:56.623171 #10802] DEBUG -- : body: {"lastName":"bar", "name":"jean", "age": 3}

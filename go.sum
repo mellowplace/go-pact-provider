@@ -1,0 +1,10 @@
+github.com/hashicorp/go-version v1.2.0 h1:3vNe/fWF5CBgRIguda1meWhsZHy3m8gCJ5wx+dIzX/E=
+github.com/hashicorp/go-version v1.2.0/go.mod h1:fltr4n8CU8Ke44wwGCBoEymUuxUHl09ZGVZPK5anwXA=
+github.com/hashicorp/logutils v1.0.0 h1:dLEQVugN8vlakKOUE3ihGLTZJRB4j+M2cdTm/ORI65Y=
+github.com/hashicorp/logutils v1.0.0/go.mod h1:QIAnNjmIWmVIIkWDTG1z5v++HQmx9WQRO+LraFDTW64=
+github.com/karhoo/pact-go v1.0.0-karhoo h1:W8FpxAErFa06kZPzAkWyhh86jCcgHw4W02KffAHmIWA=
+github.com/karhoo/pact-go v1.0.0-karhoo/go.mod h1:TfJNbYpPUpTDYR2JHSbhhd0TQQutqeVC+3jN2IQpQLc=
+github.com/karhoo/pact-go v1.0.0-karhoo.0.20190802154626-e9c8337d9b64 h1:u/siLXuCAXIPZt+w3zzlYFFusn4ANJelDpJb/p5xzgs=
+github.com/karhoo/pact-go v1.0.0-karhoo.0.20190802154626-e9c8337d9b64/go.mod h1:TfJNbYpPUpTDYR2JHSbhhd0TQQutqeVC+3jN2IQpQLc=
+github.com/karhoo/pact-go v1.0.0-karhoo.0.20190802160034-5e030d39530c h1:L/1uujnPetxToACLp+5yiwxi78kKbBpDfa0FX4H1EZU=
+github.com/karhoo/pact-go v1.0.0-karhoo.0.20190802160034-5e030d39530c/go.mod h1:TfJNbYpPUpTDYR2JHSbhhd0TQQutqeVC+3jN2IQpQLc=
